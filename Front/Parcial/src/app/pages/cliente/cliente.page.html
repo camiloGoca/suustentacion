@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>cliente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Cliente</ion-card-title>
+      <ion-card-subtitle>Informacion</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-input label="Nombre" labelPlacement="floating" placeholder="Digite su nombre"></ion-input>
+        </ion-item>
+  
+        
+        <ion-item>
+          <ion-input label="Direccion de envio" labelPlacement="floating" placeholder="Digite su direccion de envio"></ion-input>
+        </ion-item>
+  
+      </ion-list>
+    </ion-card-content>
+<ion-button routerLink="/transaccion">Registrar</ion-button>
+<ion-button>Eliminar</ion-button>
+<ion-button>Default</ion-button>
+</ion-card>
+</ion-content>
+
